@@ -1,0 +1,19 @@
+header {
+    color: beige;
+    background-color: rgba(31, 31, 138, 0.842);
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.searchingCity {
+    margin-left: 5%;
+}
+
+#searchCity {
+    color: beige;
+    background-color: rgba(31, 31, 138, 0.842);
+}
