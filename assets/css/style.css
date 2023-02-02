@@ -1,5 +1,5 @@
 header {
-    color: beige;
+    color: whitesmoke;
     background-color: rgba(31, 31, 138, 0.842);
     text-align: center;
 }
@@ -9,11 +9,34 @@ body {
     background-color: rgba(0, 0, 0, 0.11);
 }
 
-.searchingCity {
-    margin-left: 5%;
-}
+
 
 #searchCity {
-    color: beige;
+    color: whitesmoke;
     background-color: rgba(31, 31, 138, 0.842);
+} 
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.box {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    border-radius: 3px;
+    text-indent: 5%;
+  }
+
+#cityInput {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#forecast {
+
 }

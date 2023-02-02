@@ -1,50 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>The Weather</title>
+        <title>Weather Update</title>
         <link rel="stylesheet" href="./assets/css/style.css">
+
+        <link
+        rel="stylesheet"
+        href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+      />
     </head>
     <body>
         <header>
             <h1>Weather Dashboard</h1>
         </header>
 
-        <div class="searchingCity">
-            <h2 class="title">Search for a City</h2>
-            <input
-            id="cityInput"
-            type="text"
-            placeholder="Enter City"/>
-            <button id="searchCity">Search</button>
-         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <section class="column">
+            <div class="box" id="searchingCity">
+                <h2>Search for a City</h2>
+                <input
+                id="cityInput"
+                type="text"
+                placeholder="Enter City"/>
+                <button id="searchCity">Search</button>
+            </div>
+        
+            <div class="box" id="forecast">
+                <h2 class="title">5-Day Forecast:</h2>
+                <p id="enteredCity"></p>
+            </div>
+        </section> 
+        <script src="./assets/js/script.js"></script>
 
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
